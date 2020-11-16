@@ -81,4 +81,4 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/productpage.svg" width="375px" alt="Productpagina van Seek Discomfort">
+<img src="images/productpage.jpg" width="375px" alt="Productpagina van Seek Discomfort">
