@@ -38,21 +38,23 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
+Flexbox ging na het maken van de oefenopdrachten beter dan verwacht. Wel heb ik nog moeite met het maken van een productslider, ook op internet vond ik tot nu toe alleen hele lastige voorbeelden en ik vraag me vooral af of ik hiervoor het beste javascript kan gebruiken of dat ik dit kan realiseren met alleen html en css. 
+
+Ik merkte tijdens het werken aan deze opdracht dat ik FED voortrok omdat ik er meer plezier in had en er liever aan werkte dan mijn andere vakken. Toen ik met CMD begon had ik dat nooit gedacht en zag ik zelfs een beetje op tegen de tech vakken. 
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
+<img src="images/mijnsite_voortgang1.png" width="375px" alt="Homepagina van Seek Discomfort, mijn versie 1">
 
 ### Agenda voor meeting
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
+| Anne           | Maryem             | Sem          | Zoë              |
 | ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| Site bekijken  | Site bekijken      | Site bekijken| Site bekijken    |
+| Animatie nav   | Slider             | Navigatie    | Breakpoint       |
+| Waar best beginnen| Uitklappen menu|Auto letterslider| Producten slider |
 
 ### Verslag van meeting
 
@@ -69,7 +71,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
-**Je startniveau:** -Blauw/Rood-
+**Je startniveau:** -Blauw-
 
 **Je focus:** -Responsive-
 
