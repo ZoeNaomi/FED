@@ -30,7 +30,31 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+### Stand van zaken
+
+Het gebruik van grids lukt goed, ik vind het een fijne manier om elementen naast elkaar te zetten. Je kunt er heel veel mee. Wel heb ik nog wat moeite met het hamburgermenu en javascript. Ik weet niet goed hoe ik mijn html elementen moet noemen om deze aan te roepen. Sanne gebruikte in het voorbeeld namelijk een form maar ik denk niet dat dat een gepaste oplossing is voor mijn navigatie. Hier liep ik dus een beetje op vast. Wel heb ik verder gewerkt aan mijn 2e pagina.
+
+**Screenshot(s):**
+
+<img src="#" width="375px" alt="Homepagina van Seek Discomfort, mijn versie 2">
+
+### Agenda voor meeting
+
+-samen met je groepje opstellen-
+
+| Anne             | Maryem             | Sem           | Zoë               |
+| ---              | ---                | ---           | ---               |
+| Site bekijken    | Site bekijken      | Site bekijken | Site bekijken     |
+| Tekst in afb.    | Menu.nav           | paralex scroll| Elementen voor nav|
+| Div in container | content na nav     |Slider animatie|                   |
+| Breakdown contr. | Hoeveelheid H1     |Flexbox layout |                   |
+|                  | Hoeveelheid CSS    |               |                   |
+|                  | Bronnen            |               |                   |
+
+
+### Verslag van meeting
+
+-na afloop snel uitkomsten vastleggen-
 
 
 
