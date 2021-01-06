@@ -61,7 +61,6 @@ p{
   text-align: center;
   padding: 0.8em;
   margin: 0em 2em 3em 2em;
-  max-width: 25em;
 }
 
 
@@ -145,7 +144,8 @@ header nav li{
 .productSlider1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-left:1.5em;
+  margin-left:1em;
+  margin-right: 1em;
   max-width: 100%;
 }
 .productSlider1 img{
@@ -153,7 +153,7 @@ header nav li{
 }
 .productSlider1 ul{
   list-style: none;
-  max-width: 70%;
+  max-width: 95%;
   font-size: 0.8em;
   padding-left: 0em;
 }
@@ -301,12 +301,13 @@ footer ul{
  list-style: none;
  text-align:center;
  padding:0em;
- margin:0em;
+ margin-left:0em;
+ margin-bottom: 0em;
 }
 
 footer ul li:first-of-type{
   font-weight: bold;
-  margin: 2em 0em 1em 0em;
+  margin-bottom: 1em;
 }
 
 footer ul li{
@@ -321,5 +322,6 @@ footer ul li{
 .privacy li{
   flex-grow: 1;
   margin:3.5em 0em 1.5em 0em;
+
   color:gray;
 }
