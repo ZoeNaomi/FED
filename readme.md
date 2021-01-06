@@ -6,15 +6,19 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
-2. -bron 2-
-3. -...-
+1. Sanne!
+2. https://www.seekdiscomfort.com/
+3. https://www.youtube.com/watch?v=bdft2MZEqJY
+4. https://developer.mozilla.org/en-US/docs/Web/HTML/Element/iframe
+5. https://www.youtube.com/watch?v=qZVBFAtfp2A
+6. https://www.w3schools.com/html/html_youtube.asp
+
 
 
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+De opdracht van Frontend vond ik tot nu toe een van de leukste opdrachten die ik bij CMD heb gemaakt. Toen ik me bij de opleiding aanmeldde was ik vooral van plan om me te richten op design, maar in de propedeuse kwam ik erachter dat ik veel meer genoot van lekker codereren. Mijn niveau is nog niet zo hoog, maar ik vond het een hele leuke opdracht om van te leren. Vooral ook omdat we de keuze kregen te kiezen uit een bestaande 'volwaardige' website. Zo kwam ik erachter dat ik toch al aardig ver kom met mijn kennis. Mijn eindproduct is zeker nog niet perfect, maar ik ben wel blij met de progressie die ik heb gemaakt dit blok. Ook al was het soms even extra moeilijk, nu je erg op jezelf bent aangewezen door het thuis onderwijs volgen. Ik denk dat dat er misschien juist wel voor heeft gezorgd dat ik veel heb geleerd. In plaats van gelijk een vraag stellen als je ergens vastloopt ga je nu eerst zelf langer opzoek naar een oplossing. Daar leer je uiteindelijk veel meer van. 
 
 **Screenshot(s):**
 
@@ -24,7 +28,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Helaas was ik niet aanwezig bij het derde voortganggesprek.
 
 
 
@@ -54,7 +58,7 @@ Het gebruik van grids lukt goed, ik vind het een fijne manier om elementen naast
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
+De meeting verliep goed, ik heb mijn website kunnen laten zien en vragen kunnen stellen. De juiste elementen kiezen voor de navigatie vond ik nog moeilijk. Om dit te kunnen koppelen aan javascript. Ik denk dat ik na de meeting van vandaag weer verder kan hieraan! 
 
 
 
@@ -82,13 +86,7 @@ Ik merkte tijdens het werken aan deze opdracht dat ik FED voortrok omdat ik er m
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
-
-
-
-## Breakdownschets (week 1)
-
--uitwerken voor de 1e werkgroep - eind van de eerste week-
+De meeting verliep fijn, ik heb vragen kunnen stellen over onderdelen waar ik vast liep. Ook vertelde de student assistenten mij dat een productslider erg lastig is om te realiseren en dat ik me beter kon focussen op de rest van de site. Ik liep hier namelijk al een tijdje mee vast. Ik ga me nu verder focussen op de 2e pagina. 
 
 
 

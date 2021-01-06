@@ -1,25 +1,17 @@
-// JavaScript Document
 
-//var navMenu = document.idSelector("menu");
+console.log("hallo");
 
-//function showMenu(){
-//	let hetMenu = document.idSelector("menu");
-//	hetMenu.classList.toggle("toonMenu");
-//}
+function openMenu(){
+    document.getElementById("dropdownMenu").classList.toggle("laatMenuZien");
 
-//navMenu.addEventListener("click", showMenu);
+}
 
+document.getElementById("menu").addEventListener("click",openMenu);
 
 
+function openDetails(){
+    document.getElementById("details").classList.toggle("laatDetailsZien");
 
+}
 
-
-
-//var deButton = document.querySelector("h2");
-
-//function doeFormHeenEnWeer(){
-//	let hetFormulier = document.querySelector("form");
-//	hetFormulier.classList.toggle("toonForm");
-//}
-
-//deButton.addEventListener("click", doeFormHeenEnWeer);
+document.getElementById("productDetails").addEventListener("click",openDetails);

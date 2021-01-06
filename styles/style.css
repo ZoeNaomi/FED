@@ -2,13 +2,66 @@
 *, *::after, *::before {
   box-sizing:border-box;  
 }
-
+/*Algemeen*/
 body{
   margin: 0em;
   top: 0;
   font-family: Questrial, sans-serif;
-  font-weight: lighter;
+  font-weight: 400;
+}
+
+h2 h4 h5{
+  font-family:'Tahoma';
+}
   
+h1{
+  margin: 0.8em 0em 0.5em 0.8em;
+  font-size: 1.5em;
+}
+
+h2{
+  margin: 0em 0em 1em 1.4em;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+h3{
+  text-align: left;
+  font-size: 1em;
+  font-weight: 900;
+  margin-left: 1.2em;
+}
+
+h5{
+  text-align: center;
+  margin-top: 5em;
+}
+
+p{
+  text-align: center;
+}
+
+/*buttons*/
+.button{
+  text-decoration: none;
+  display: block;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.8em;
+  margin: 1.5em 2em 3.5em 2em;
+}
+
+.button2{
+  text-decoration: none;
+  display: block;
+  background-color: white;
+  color: black;
+  border: 0.5px solid grey;
+  text-align: center;
+  padding: 0.8em;
+  margin: 0em 2em 3em 2em;
+  max-width: 25em;
 }
 
 
@@ -17,7 +70,6 @@ header {
   /*position: -webkit-sticky; /* Safari */
   /*https://www.w3schools.com/howto/howto_css_sticky_element.asp  -webkit voor safari*/
   position: sticky;
-  top: 0;
   text-align: center;
   margin: 0;
   z-index: 10;
@@ -33,19 +85,42 @@ header p{
   padding: 0.9em;
 }
 
-
 header nav ul{
   list-style:none;
   display: flex;
   background-color: white;
   margin: 0em;
   padding: 0.8em;
-
+  
 }
 
 header nav li{
   flex-grow: 1;
 }
+
+/*dropdown*/
+#dropdownMenu{
+  display: none;
+}
+
+#dropdownMenu.laatMenuZien{
+  transition: 0.45;
+  display: block;
+  text-align: left;
+  position: absolute;
+  width: 105%;
+  margin-left:-1em;
+}
+
+#dropdownMenu.laatMenuZien li{
+  padding: 1em 0em 1em 1em;
+  border-bottom: 0.5px solid grey;
+}
+
+#menu{
+  text-align: left;
+}
+
 
 
 /*TEKSTBLOKJES*/
@@ -55,6 +130,7 @@ header nav li{
   margin:2em;
   margin-bottom:4em;
 }
+
 
 .tekstblokje a{
   text-decoration: none;
@@ -69,25 +145,23 @@ header nav li{
 .productSlider1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-left:1em;
+  margin-left:1.5em;
   max-width: 100%;
 }
+.productSlider1 img{
+  width: 100%;
+}
 .productSlider1 ul{
-
-
   list-style: none;
   max-width: 70%;
   font-size: 0.8em;
   padding-left: 0em;
-
 }
 
 .productSlider1 ul li{
   position: relative;
-  max-width: 100em;
-
-
 }
+
 .productSlider1 img{
  margin-bottom: 0.4em;
 }
@@ -102,56 +176,50 @@ header nav li{
   font-size: 0.8em;
 }
 
+
+/*videoplayer*/
+iframe{
+  margin-top:1em;
+  width: 100%;
+}
+
+/*Social media posts*/
+.socials{
+  width: 100%;
+  margin:0em;
+  margin-bottom: 3em;
+}
+
+.socials ul{
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr ;
+  margin:0em;
+  padding: 0em;
+  flex-wrap: wrap;
+}
+
+.socials h5{
+  text-align: center;
+}
+
 input{
+  width: 100%;
   border: 0;
   border-bottom: 1px solid black;
   padding: 1em 0em;
 }
 
-.button{
-  text-decoration: none;
-  display: block;
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding: 0.8em;
-  margin: 1.5em 2em 1.5em 2em;
-}
+/*PAGINA 2*/
 
-/*page 2*/
-
-h1{
-  margin: 0.8em 0em 0.5em 0.8em;
-  font-size: 1.5em;
-}
-
-h2{
-  margin: 0em 0em 1em 1.4em;
-  font-size: 1em;
-}
-
-.button2{
-  text-decoration: none;
-  display: block;
-  background-color: white;
-  color: black;
-  border: 0.5px solid grey;
-  text-align: center;
-  padding: 0.8em;
-  margin: 0em 2em 5em 2em;
-}
 .sizes{
   display:grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
   max-width: 90%;
-
   margin-top: 2em;
 }
 
-
-
 .sizes li{
-
   text-decoration: none;
   display: inline;
   border: 0.5px solid black ;
@@ -159,15 +227,70 @@ h2{
   padding:0.8em;
 }
 
+#details{
+  display: none;
+}
 
+#productDetails{
+  margin-left: 1.8em;
+  font-size: 1.2em;
+
+}
+.titelProductInformatie {
+  display: inline-flex;
+  list-style-type: none;
+  text-align: left;
+  padding-left:0em;
+}
+
+#details.laatDetailsZien{
+  display: block;
+}
+
+#details.laatDetailsZien p{
+  text-align: left;
+  margin: 1em 2.7em 4em 2.7em;
+  font-size: 0.8em;
+}
+
+.message{
+  background-color: #dadada;
+  margin: 4em 0em 4em 0em;
+  padding: 1.5em;
+}
+
+/*MEDIAQUERIES*/
+@media (min-width:600px){
+.productSlider1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-wrap: wrap;
+  }
+}
+
+
+@media (min-width:600px){
+  .socials ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    flex-wrap: wrap;
+  } 
+}
+@media (min-width:800px){
+  .socials ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    flex-wrap: wrap;
+  } 
+}
 
 
 /*FOOTER*/
 footer{
+  bottom: 0;
   background-color: #26282D;
   color: white;
   margin-top:3em
-
 }
 
 footer img{
@@ -178,13 +301,12 @@ footer ul{
  list-style: none;
  text-align:center;
  padding:0em;
- margin-left:0em;
- margin-bottom: 3em;
+ margin:0em;
 }
 
 footer ul li:first-of-type{
   font-weight: bold;
-  margin-bottom: 1em;
+  margin: 2em 0em 1em 0em;
 }
 
 footer ul li{
@@ -198,7 +320,6 @@ footer ul li{
 
 .privacy li{
   flex-grow: 1;
-  margin-top:3.5em;
-  margin-bottom:1.5em;
+  margin:3.5em 0em 1.5em 0em;
   color:gray;
 }

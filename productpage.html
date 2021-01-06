@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="nl">
+<html lang="en">
 	
 <head>
 	<meta charset="UTF-8">
@@ -16,17 +16,27 @@
 	<header>
 		<p>$99.00 LEFT FOR FREE USA SHIPPING</p>
 	<nav>
-		<ul>
-			<li><img src="images/menu.png" width="17"></li>
+		<ul class="nav">
+			<li ><a><img id="menu" src="images/menu.png" width="17"></a>
+			<ul id="dropdownMenu">
+				<li>ALL</li>
+				<li>TOPS</li>
+				<li>BOTTOMS</li>
+				<li>ACCESSORIES</li>
+				<li>About</li>
+				<li>Content</li>
+			</ul> 
+		    </li>
 			<li><img src="images/seek_discomfort_logo.png" width="180"></li>
 			<li><img src="images/shopping_cart.svg" width="17"></li>
 		</ul>
 	</nav>
-    </header>
+
+	</header>
     
     <h1>Black 'Mountain Range' Sweatshirt</h1>
 
-    <h2>$50.00</h2>
+    <h3>$50.00</h3>
 
 	<img src="images/shirt1.jpg" alt="Homepage picture" width="100%">
    
@@ -41,29 +51,42 @@
 
     <a class="button" href="#">Add to cart</a>
     
-    <a class="button2" href="#">4 interest-free payments of 12.50. <b>Klarna.</b><u>Learn more</u></a>
+	<a class="button2" href="#">4 interest-free payments of 12.50. <b>Klarna.</b><u>Learn more</u></a>
 
+	<div >
+		<ul class="titelProductInformatie">
+			<li><a id="productDetails">Product Details</a></li>
+			<li><a id="productDetails">+</a></li>
+		
+	    </ul>
+		<div id="details">
+			<p>Oversized, relaxed, and cozy fit. White embroidered Seek Discomfort logo on front.
+			   100% polyester sherpa fleece, double entry kangaroo hand pocket. The softest hoodie you'll ever own...
+			</p>
+		</div> 
+	</div>
+	
+	<p class="message">Our goal is to be a daily reminder that the best things in lige are outside yout comfort zone.</p>
+
+	<h2>You May Also Like</h2>
 	<article class="productSlider1">
 	    <ul>
-			<li><img src="images/shirt1.jpg" alt="shirt with long sleeves" width="150em"></li>
+			<li><img src="images/shirt3.jpg" alt="shirt with long sleeves" width="150em"></li>
 			<li>Black 'Mountain Range' Sweatshirt</li>
 			<li>$50.00</li>
 		</ul>
 
 		<ul>
-			<li><img src="images/shirt1.jpg" alt="shirt with long sleeves" width="150em"></li>
+			<li><img src="images/acc2.jpg" alt="shirt with long sleeves" width="150em"></li>
 			<li>Black 'Mountain Range' Sweatshirt</li>
 			<li>$50.00</li>
 		</ul>
-
 	</article>
 
-	<a class="button" href="#">SEEK ADVENTURE</a>
-
-
+	<a class="button" href="#">SEEK MORE</a>
 
 	<article class="tekstblokje">
-		<h3>JOIN THE FAM</h3>
+		<h2>JOIN THE FAM</h2>
 		<p>And enter for a chance to win a $100 gift card</p>
 		<input type="email" placeholder="Enter your email here...">
 		<!--input for entering email, form-->
