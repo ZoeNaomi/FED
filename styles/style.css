@@ -30,6 +30,7 @@ h3{
   font-size: 1em;
   font-weight: 900;
   margin-left: 1.2em;
+  margin-right: 1.2em;
 }
 
 h5{
@@ -218,6 +219,9 @@ input{
   max-width: 90%;
   margin-top: 2em;
 }
+.sizes ul{
+  padding-left: 0em;
+}
 
 .sizes li{
   text-decoration: none;
@@ -225,6 +229,7 @@ input{
   border: 0.5px solid black ;
   margin:0em;
   padding:0.8em;
+  font-size: 0.7em;
 }
 
 #details{
